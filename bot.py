@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝖬𝖺𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/silvervoidmovie")
+                        InlineKeyboardButton("𝖬𝖺𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/haniflix_verse")
                     ],
                     [
                         InlineKeyboardButton("", callback_data="aboutbot"),
@@ -82,8 +82,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("𝖡𝗈𝗍𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/Rokubotz"),
-                        InlineKeyboardButton(" 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/Team_Roku")
+                        InlineKeyboardButton("𝖡𝗈𝗍𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/MysteryBots"),
+                        InlineKeyboardButton(" 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/+_klqs93gEstkYzk1")
                     ]
                 ]
             )
@@ -124,7 +124,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/Team_Roku)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/+_klqs93gEstkYzk1)",
                                      disable_web_page_preview=True)
             return
 
@@ -157,15 +157,15 @@ async def main(bot: Client, message: Message):
                                                        reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("", url="https://t.me/silvervoidmovie")
+                        InlineKeyboardButton("", url="https://t.me/haniflix_verse")
                     ],
                     [
-                        InlineKeyboardButton("🌧 𝖢𝗋𝗎𝗇𝖼𝗁𝗒𝖫𝗂𝗍𝖾", url="https://t.me/CrunchyLites"),
-                        InlineKeyboardButton("⚡️ 𝖧𝖺𝗇𝗂𝖥𝗅𝗂𝗑", url="https://t.me/Haniflix"),
+                        InlineKeyboardButton("🌧 Haniflix", url="https://t.me/haniflix_verse"),
+                        InlineKeyboardButton("⚡️ 𝖧𝖺𝗇𝗂𝖥𝗅𝗂𝗑", url="https://t.me/ongoing_haniflix"),
                         InlineKeyboardButton("", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("", url="https://t.me/Rokubotz"),
+                        InlineKeyboardButton("", url="https://t.me/MysteryBots"),
                         InlineKeyboardButton("", url="")
                     ]
                 ]
@@ -334,7 +334,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://t.me/Team_Roku")
+                                             url="https://t.me/MysteryBots")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -352,7 +352,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://t.me/Team_Roku")
+                                             url="https://t.me/MysteryBots")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -369,7 +369,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝖬𝖺𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/silvervoidmovie")
+                        InlineKeyboardButton("𝖬𝖺𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/haniflix_verse")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -377,8 +377,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/Team_Roku"),
-                        InlineKeyboardButton("𝖡𝗈𝗍𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/Rokubotz")
+                        InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/+_klqs93gEstkYzk1"),
+                        InlineKeyboardButton("𝖡𝗈𝗍𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/MysteryBots")
                     ]
                 ]
             )
@@ -394,7 +394,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Team_Roku).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/+_klqs93gEstkYzk1).",
                         disable_web_page_preview=True
                     )
                     return
@@ -416,7 +416,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/Team_Roku).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/+_klqs93gEstkYzk1).",
                     disable_web_page_preview=True
                 )
                 return
@@ -426,8 +426,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/Rokubotz"),
-                        InlineKeyboardButton("𝖡𝗈𝗍𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/Team_Roku")
+                        InlineKeyboardButton("𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/+_klqs93gEstkYzk1"),
+                        InlineKeyboardButton("𝖡𝗈𝗍𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/MysteryBots")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
