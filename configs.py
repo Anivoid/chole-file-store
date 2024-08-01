@@ -11,9 +11,9 @@ class Config(object):
 	SHORTLINK_URL = os.environ.get('SHORTLINK_URL')
 	SHORTLINK_API = os.environ.get('SHORTLINK_API')
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "7102263732"))
-	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Anivoid:akhand1616@cluster05.kzyifsq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster05")
+	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://accha:phir@cluster0.eummbs7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002088432628")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001941319109")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
@@ -25,7 +25,7 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 
 ╭────[ **🔅FɪʟᴇSᴛᴏʀᴇBᴏᴛ🔅**]────⍟
 │
-├🔸 **My Name:** [FileStore Bot](https://t.me/Cholefilestorebot)
+├🔸 **My Name:** [Ariesaep](https://t.me/Ariesaep)
 │
 ├🔸 **Language:** [Python 3](https://www.python.org)
 │
@@ -35,9 +35,9 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 │
 ├🔸 **Developer:** [Aries](https://t.me/Ariesaep) 
 │
-├🔹 **Bot Support:** [Support Group](https://t.me/Team_Roku)
+├🔹 **Main:** [Hentai](https://t.me/ongoing_haniflix)
 │
-├🔸 **Bot Updates:** [Bots Channel](https://t.me/Rokubotz)
+├🔸 **Hentai:** [Haniflix](https://t.me/haniflix_verse)
 │
 ╰──────[ 😎 ]───────────⍟
 """
