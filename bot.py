@@ -82,8 +82,8 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("𝖡𝗈𝗍𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅", url="https://t.me/MysteryBots"),
-                        InlineKeyboardButton(" 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉", url="https://t.me/+_klqs93gEstkYzk1")
+                        InlineKeyboardButton("Haniflix", url="https://t.me/ongoing_haniflix"),
+                        InlineKeyboardButton("Javflix", url="https://t.me/+_klqs93gEstkYzk1")
                     ]
                 ]
             )
@@ -124,7 +124,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/+_klqs93gEstkYzk1)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support](https://t.me/Ariesaep)",
                                      disable_web_page_preview=True)
             return
 
